@@ -21,3 +21,8 @@ var createElement = function(newElName, elClass, elValue) {
 let findUser = (data, userId) => {
 	return data.find(user => user.id === userId);
 }
+
+// date
+let getYear = () => String((new Date).getFullYear());
+let getMonth = (one = 0) => String(((new Date).getMonth() + one)).padStart(2, '0');
+let getDay = () => String((new Date).getDate()).padStart(2, '0');
