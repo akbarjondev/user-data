@@ -16,9 +16,8 @@ var createElement = function(newElName, elClass, elValue) {
 }
 
 
-// findUser
-
-let findUser = (data, userId) => {
+// findData
+let findData = (data, userId) => {
 	return data.find(user => user.id === userId);
 }
 

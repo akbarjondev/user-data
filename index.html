@@ -41,6 +41,33 @@
     </table>
   </div>
 
+  <!-- modal -->
+  <div class="user-modal" id="userModal">
+    <div class="user-modal-body">
+      <div class="row py-4">
+        <h2 class="h4 text-center flex-grow-1">Username</h2>
+        <button class="btn btn-danger" id="jsCloseModal" type="button">X</button>
+      </div>
+      <table class="table table-sm table-striped">
+        <thead>
+          <tr>
+            <td>Date</td>
+            <td>Visit</td>
+            <td>Score</td>
+          </tr>
+        </thead>
+        <tbody class="user-data-table" id="userDataTable">
+          <tr>
+            <td class="user-visit-date">2020-12-09</td>
+            <td class="user-visit">ok</td>
+            <td class="user-score">15</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <span class="curtain"></span>
+  <!-- modal end -->
   <template id="trTemplate">
     <tr class="data-tr">
       <td class="data-name">Ali</td>
